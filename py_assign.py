@@ -28,7 +28,7 @@ def check_dublicate(*args):
             #remove duplicates
             df.drop_duplicates(inplace=True)
             #print(df.head)
-            df.to_csv('finaloutput.txt')
+            df.to_csv('finaloutput.txt','a')
            
   
 
